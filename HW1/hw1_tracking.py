@@ -50,7 +50,7 @@ while cap.isOpened():
             x, y, w, h = box
             track = track_history[track_id]
             track.append((float(x), float(y)))  # x, y center point
-            if len(track) > 30:  # retain 90 tracks for 90 frames
+            if len(track) > 30:  
                 track.pop(0)
 
             # Rewrite the bounding box and the text on it
