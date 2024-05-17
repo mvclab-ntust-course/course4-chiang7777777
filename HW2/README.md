@@ -4,7 +4,7 @@
 * TRAIN SET : 700 Images
 * VALID SET : 200 Images
 * TEST  SET : 100 Images
-* example :
+* example :  
 ![image](https://i.imgur.com/ZoWSEV8.jpeg)
 
 ## 下載資料集
@@ -23,7 +23,7 @@ model = YOLO('yolov8n.pt')
 model.train(data='animals-2\data.yaml', epochs=100, imgsz=640)
 ```
 Loss curve :
-![image](https://api.wandb.ai/files/chiang777/YOLOv8/vtn8lii3/media/images/results_100_ab9f281cd22e09871ea7.png?height=422)
+![image](https://i.imgur.com/7HgaCHi.png)
 
 
 
